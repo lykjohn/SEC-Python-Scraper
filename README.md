@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center"> Business Fundamental Scraping </h3>
 
 <div align="center">
 
@@ -16,8 +16,8 @@
 
 ---
 
-<p align="center"> About project
-    <br> 
+<p align="center"> 
+  This scraper aims to retrieve fundamental data of a business over a specified time period with optimal felxibility and reliability. 
 </p>
 
 ## 📝 Table of Contents
