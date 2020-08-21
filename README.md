@@ -18,7 +18,10 @@
 
 ## What is this about? <a name = "about"></a>
 <p>
-  In the era of information unity, business information seem to go against the stream. It is like an universe of dust, touching one piece is likely to cause a shiver in the other. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to merge it with one in another year is
+  In the era of information unity, we would like to see a neat pile of information that synergize each other, so do businesses.
+  
+  
+  business information seem to go against the stream. It is like an universe of dust, touching one piece is likely to cause a shiver in the other. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to merge it with one in another year is
   
   
   
