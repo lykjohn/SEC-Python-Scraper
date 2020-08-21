@@ -6,12 +6,16 @@
   
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
-<div >
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-</div>
 
----
+<p align="center">
+  <a href="https://github.com/ArmynC/ArminC-AutoExec/commits/master">
+  <img src="https://img.shields.io/github/last-commit/lykjohn/SEC-Business-Scraper.svg?style=flat-square&logo=github&logoColor=white"
+       alt="GitHub last commit">
+
+</p>
+
+
+
 
 <p align="center"> 
   This scraper aims to retrieve fundamental data of a business over a specified time period with optimal felxibility and reliability. 
