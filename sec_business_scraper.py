@@ -4,8 +4,8 @@ Copyright (c) 2020, Yin Kwong John Lee
 All rights reserved.
 
 This is an information tool to retrieve official business financials (income statements, balance sheets, and cashflow statements) for a sepcified range of times. 
-The code aims to be as vallina as possible by minimizing the depndencies and packages ued to construct functions. 
-This code can be used immediately off the shelf and assumes no more than the following packages to be installed. 
+The code aims to be as vallina as possible by minimizing the depndencies and packages ued for function constructions. 
+This code can be used immediately off the shelf and assumes no more than the packages stated in the README.md fileto be installed. 
 As a reminder, please ensure that your directory has enough space, ideally at least 100 MB for newly　serialized reports to reside on the disk until you decide to clear them. 
 """
 
