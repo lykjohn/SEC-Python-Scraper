@@ -1,12 +1,12 @@
 
 <p align="center">
   <a href="" rel="noopener">
-  <img src="images/cover_version1.jpg">
+  <img src="images/cover_version1.jpg" width='1000' height='475'>
 </p>
 
-<h3 align="center"> Business Fundamental Scraping </h3>
+<h3 > For retrieving the "health record", aka the fundamentals of companies </h3>
 
-<div align="center">
+<div >
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
