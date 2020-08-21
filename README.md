@@ -18,7 +18,11 @@
 
 ## What is this about? <a name = "about"></a>
 <p>
-  Business inormation is like an universe of dust, touching one piece is likely to cause a shiver in another. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to do so for another filing year is able, yet unfortunate. This is because database system managers or company filers are prone to changing the filing formats. For instance, a consolidated balance sheet of a company for any one year may format rows with 
+  In the era of information unity, business information seem to go against the stream. It is like an universe of dust, touching one piece is likely to cause a shiver in the other. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to merge it with one in another year is
+  
+  
+  
+  to do so for another filing year is able, yet unfortunate. This is because database system managers or company filers are prone to changing the filing formats. For instance, a consolidated balance sheet of a company for any one year may format rows with 
   
   main problem is to merge dataframes
   
