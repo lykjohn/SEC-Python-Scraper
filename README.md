@@ -4,7 +4,7 @@
   <img src="images/banner.png" width='750' height='350'>
 </p>
 
-<h1  style="font-family: 'Georgia'; color:green;" align='center'> Business Information Scraper </h1>
+<h1  style="color:blue;" align='center'> Business Information Scraper </h1>
 
 <div >
 
