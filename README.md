@@ -6,9 +6,12 @@
   
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+
+[![Build Status](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
+[![Documentation Status](https://img.shields.io/badge/documentation-passing-green.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
+[![GitHub commits](https://img.shields.io/badge/last%20commit-today-yellow.svg)](https://github.com/lykjohn/SEC-Business-Scraper/commit/master)
 [![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
-[![GitHub license](https://img.shields.io/github/license/lykjohn/SEC-Business-Scraper.js.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
 
 
 <p align="center"> 
