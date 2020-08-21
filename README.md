@@ -19,7 +19,7 @@
 ## What is this about? <a name = "about"></a>
 
 
-## How it workds <a name = "how_it_works"></a>
+## How does this work? <a name = "how_it_works"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 
