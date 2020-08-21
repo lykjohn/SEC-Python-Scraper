@@ -14,38 +14,28 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
 
 
-<p > 
-  This is an information tool to retrieve official business financials (income statements, balance sheets, and cashflow statements) for a sepcified range of times. 
-The code aims to be as vallina as possible by minimizing the depndencies and packages ued for function constructions. 
-This code can be used immediately off the shelf and assumes no more than the packages stated in the README.md fileto be installed. 
-As a reminder, please ensure that your directory has enough space, ideally at least 100 MB for newly　serialized reports to reside on the disk until you decide to clear them. 
-</p>
+[What is this about?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How it workds](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|[How is this different from other scrapers?](#unique)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledgement)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
-## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+## What is this about? <a name = "about"></a>
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+
+## How it workds <a name = "how_it_works"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
+
+
+## Quick Start <a name = "quick_start"></a>
 ### Prerequisites
-What things you need to install the software and how to install them.
+### Run Script
 
 ```
 Give examples
 ```
 
-### Installing
+## Examples <a name = "examples"></a>
+
+## How is this different from other scrapers? a name = "uniiqe"></a>
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
@@ -54,7 +44,8 @@ Say what the step will be
 Give the example
 ```
 
-And repeat
+## Acknowledgments <a name = "acknowledge"></a>
+
 
 ```
 until finished
