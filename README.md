@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
-  <img src="images/banner.png" width='1000' height='475'>
+  <img src="images/banner.png" width='750' height='350'>
 </p>
 
 <h3 > For retrieving the "health record", aka the fundamentals of companies </h3>
