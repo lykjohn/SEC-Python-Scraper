@@ -4,7 +4,7 @@
   <img src="images/banner.png" alt='Book Value' width='750' height='350' >
 </p>
   
-<h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
+<h1  style="font-family: Georgia;" > Business Information Scraper </h1>
 
 
 [![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
