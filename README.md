@@ -4,7 +4,7 @@
   <img src="images/banner.png" width='750' height='350'>
 </p>
 
-<h3 > For retrieving the "health record", aka the fundamentals of companies </h3>
+<h1 style='font-family: Georgia' align='center'> Business Information Scraper </h1>
 
 <div >
 
