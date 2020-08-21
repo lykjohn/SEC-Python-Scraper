@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- ![sec Business Scraper](https://github.com/lykjohn/images/cover_version1.jpg?raw=true)
+ !sec Business Scraper(https://github.com/lykjohn/images/cover_version1.jpg?raw=true)
 </p>
 
 <h3 align="center"> Business Fundamental Scraping </h3>
