@@ -6,10 +6,10 @@
   
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+[![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![GitHub license](https://img.shields.io/github/license/lykjohn/SEC-Business-Scraper.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-<p align="center">
-  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-</p>
 
 <p align="center"> 
   This scraper aims to retrieve fundamental data of a business over a specified time period with optimal felxibility and reliability. 
