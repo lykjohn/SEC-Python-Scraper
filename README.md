@@ -18,7 +18,14 @@
 
 ## What is this about? <a name = "about"></a>
 <p>
-  Business inormation is like an universe of dust, touching one piece is likely to cause a shiver on the other. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to do so for another filing year is able, yet unfortunate. This is because database system managers or company filers are prone to changing the filing formats. For instance, a 'short-term debt' item in a balance sheet for any one year may be named 'current portion of long-term holdings' in another, or sometimes non-determinable by folks outside the accounting circle. COnvetional scraping algorithms abide to a set of rules before recognizing each item in a financial statement. 
+  Business inormation is like an universe of dust, touching one piece is likely to cause a shiver in another. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to do so for another filing year is able, yet unfortunate. This is because database system managers or company filers are prone to changing the filing formats. For instance, a consolidated balance sheet of a company for any one year may format rows with 
+  
+  main problem is to merge dataframes
+  
+   be formatted to contain different table sizez and tags within such that uniformity amongst 
+  
+  
+  "short-term debt" item in a balance sheet  may be named "current portion of long-term holdings" in another, or something non-determinable by folks outside the accounting circle. Thus, a scraper attempting to touch the "short-term debt" Convetional scraping algorithms abide to a set of rules before recognizing each item in a financial statement. 
 </p>
 
 ## How does this work? <a name = "how_it_works"></a>
