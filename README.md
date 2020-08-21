@@ -1,17 +1,22 @@
 
 <p align="center">
   <a href="" rel="noopener">
-  <img src="images/banner.png" width='750' height='350'>
+  <img src="images/banner.png" alt='Book Value' width='750' height='350' >
 </p>
   
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
 
 <p align="center">
-  <a href="https://github.com/ArmynC/ArminC-AutoExec/commits/master">
-  <img src="https://img.shields.io/github/last-commit/lykjohn/SEC-Business-Scraper.svg?style=flat-square&logo=github&logoColor=white"
-       alt="GitHub last commit">
-
+  <a href="https://github.com/lykjohn/SEC-Business-Scraper/commits/master">
+  <img src="https://img.shields.io/github/last-commit/lykjohn/SEC-Business-Scraper.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit" width='140' height='23' >
+    
+  <a href="https://www.linkedin.com/in/yinkwongjohnlee">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt='Admin LinkedIn Profile' width='125' height='23' /> 
+  
+  <a href="https://www.python.org/">
+  <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt='Python' width='125' height='23' /> 
+ 
 </p>
 
 
