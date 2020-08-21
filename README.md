@@ -7,7 +7,7 @@
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
 
-[![Build Status](https://img.shields.io/badge/build-passing-grey.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
+[![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
 [![Documentation Status](https://img.shields.io/badge/documentation-passing-green.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
 [![GitHub commits](https://img.shields.io/badge/last%20commit-today-yellow.svg)](https://github.com/lykjohn/SEC-Business-Scraper/commit/master)
 [![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
