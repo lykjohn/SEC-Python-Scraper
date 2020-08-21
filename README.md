@@ -14,8 +14,11 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
 
 
-<p align="center"> 
-  This scraper aims to retrieve fundamental data of a business over a specified time period with optimal felxibility and reliability. 
+<p > 
+  This is an information tool to retrieve official business financials (income statements, balance sheets, and cashflow statements) for a sepcified range of times. 
+The code aims to be as vallina as possible by minimizing the depndencies and packages ued to construct functions. 
+This code can be used immediately off the shelf and assumes no more than the following packages to be installed. 
+As a reminder, please ensure that your directory has enough space, ideally at least 100 MB for newly　serialized reports to reside on the disk until you decide to clear them. 
 </p>
 
 ## 📝 Table of Contents
