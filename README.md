@@ -4,14 +4,12 @@
   <img src="images/banner.png" width='750' height='350'>
 </p>
   
+<h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
+
 <div >
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 </div>
-
-<h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
-
-
 
 ---
 
