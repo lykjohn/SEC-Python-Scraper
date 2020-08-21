@@ -17,7 +17,9 @@
 [What is this about?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How it workds](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why this scraper?](#unique)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledgement)&nbsp;&nbsp;&nbsp;
 
 ## What is this about? <a name = "about"></a>
-
+<p>
+  Business inormation is like an universe of dust, touching one piece is likely to cause a shiver on the other. SEC EDGAR database is a web repository storing these types of information, for example, a scraper that successfully extracts a financial statement for one filing year but fails to do so for another filing year is able, yet unfortunate. This is because database system managers or company filers are prone to changing the filing formats. For instance, a 'short-term debt' item in a balance sheet for any one year may be named 'current portion of long-term holdings' in another, or sometimes non-determinable by folks outside the accounting circle. COnvetional scraping algorithms abide to a set of rules before recognizing each item in a financial statement. 
+</p>
 
 ## How does this work? <a name = "how_it_works"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
