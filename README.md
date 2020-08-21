@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ ![sec Business Scraper](https://github.com/lykjohn/images/cover_version1.jpg?raw=true)
 </p>
 
 <h3 align="center"> Business Fundamental Scraping </h3>
