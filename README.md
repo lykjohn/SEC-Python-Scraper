@@ -14,7 +14,7 @@
   <a href="https://www.linkedin.com/in/yinkwongjohnlee">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt='Admin LinkedIn Profile' width='125' height='23' /> 
   
-  <a href="https://www.python.org/"></a>
+  <a href="https://www.python.org/">
   <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt='Python' width='125' height='23' /> 
  
 </p>
