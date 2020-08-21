@@ -7,17 +7,9 @@
 <h1  style="font-family: Georgia;" align='center'> Business Information Scraper </h1>
 
 
-<div align="center">
-  <a href="https://github.com/lykjohn/SEC-Business-Scraper/commits/master"></a>
-  <img src="https://img.shields.io/github/last-commit/lykjohn/SEC-Business-Scraper.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit" width='140' height='23' >
-
-  <a href="https://www.linkedin.com/in/yinkwongjohnlee"></a>
-  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt='Admin LinkedIn Profile' width='125' height='23' /> 
-
-  <a href="https://www.python.org/" ></a>
-  <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt='Python' width='125' height='23' /> 
-  
- </div>
+<p align="center">
+  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+</p>
 
 <p align="center"> 
   This scraper aims to retrieve fundamental data of a business over a specified time period with optimal felxibility and reliability. 
