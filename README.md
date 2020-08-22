@@ -43,7 +43,8 @@
   </ul>
   <ul><strong> 2. Install Pytohn Packages:</strong>
   
-```pip install pandas
+```bash
+pip install pandas
 ```
 
   </ul> 
