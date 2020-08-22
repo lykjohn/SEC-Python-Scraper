@@ -42,7 +42,10 @@
   
   </ul>
   <ul><strong> 2. Install Pytohn Packages:</strong>
-    <li> ```  pip install ``` </li>
+  
+```pip install pandas
+```
+
   </ul> 
   
 </p>
