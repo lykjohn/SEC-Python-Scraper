@@ -41,7 +41,9 @@
     <li>If your Chrome version is neither of the above, go <a href="https://chromedriver.chromium.org/downloads"> here</a> to select a version that suits.</li>
   
   </ul>
-      <strong> 2. Install Pytohn Packages:</strong>
+  <ul><strong> 2. Install Pytohn Packages:</strong>
+  
+  </ul> 
   
 </p>
 
