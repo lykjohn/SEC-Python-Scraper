@@ -34,7 +34,7 @@
 ### Prerequisites
 <p>
   
-  <ul>Choose chrome driver to install based on your chrome version (skip this if you've already done so):
+  <ul> <storng> 1) Choose chrome driver to install based on your chrome version (skip this if you've already done so):</strong>
     <li>If you are using Chrome version 85, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=85.0.4183.38/"> 85.0.4183.38 </a> </li>
     <li>If you are using Chrome version 84, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/">84.0.4147.30 </a> </li>
     <li>If you are using Chrome version 83, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/">83.0.4103.39 </a> </li>
