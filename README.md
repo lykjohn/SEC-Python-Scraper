@@ -28,22 +28,11 @@
    
 </p>
 
-and adds it to your computer. 
-
-
-
-
-
-
-
 
 ## Quick Start <a name = "quick_start"></a>
 ### Prerequisites
-### Run Script
 
-```
-Give examples
-```
+### GOing to work
 
 ## Examples <a name = "examples"></a>
 
