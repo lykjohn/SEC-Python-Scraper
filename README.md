@@ -18,7 +18,7 @@
 
 ## What is this about? <a name = "about"></a>
 <p>
-  In the era of information unity, the uncentralized fashion of delivering financial information page after page is becoming a less paceful practice. This package aims to provide dynamic functions to retrieve and centralize financial information from the U.S. Securities and Exchange Commission (SEC) EDGAR database, a web reposoitory that reliably stores filings and track records of all publicly-traded companies in the U.S.. Think of this as your research agent, let it know the specific company statement(s) you are looking for, then it will gather and tidy them for you. The catch is that there is only one place to look, regardless how many statements you've requested.
+  In the era of information unity, the uncentralized fashion of delivering financial information page after page is becoming a less paceful practice. This package aims to provide dynamic functions to retrieve and centralize financial information from the U.S. Securities and Exchange Commission (SEC) EDGAR database, a web reposoitory that stores reliable filings and track records of all publicly-traded companies in the U.S.. Think of this as your research agent, let it know the specific company statement(s) you are looking for, then it will gather and tidy them for you. The catch is that there is only one place to look, regardless how many statements you've requested.
   
 
 
