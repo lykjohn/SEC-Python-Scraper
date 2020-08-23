@@ -43,17 +43,17 @@
       </ul>
    <strong> <li> Install Pytohn Packages:</li></strong>
   
-```bash
-pip installl os
-pip install pickle
-pip install re
-pip install bs4
-pip install requests
-pip install pandas
-pip install numpy
-pip install datetime 
-pip install selenium
-```
+
+>pip installl os
+>pip install pickle
+>pip install re
+>pip install bs4
+>pip install requests
+>pip install pandas
+>pip install numpy
+>pip install datetime 
+>pip install selenium
+
   </ol> 
 </p>
 
@@ -65,10 +65,8 @@ import sec_business_scraper
 ```
 <p> From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. Below is an example: </p>
 
-```
-sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
-```
->hello
+>sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
+
 
 
 
