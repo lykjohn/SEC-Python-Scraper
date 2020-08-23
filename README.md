@@ -84,19 +84,19 @@ anuual_business=sec_business_scraper.Business(foreign=False, symbol='AMZN', repo
   
   <li>
   
-`report_type='annual'` means that we are interest in the annual term reports of a company. Quarter term reports may be obtained by specifying `report_type='quarter'`. In the example above, we are intered in Amazon's annual reports.
+`report_type='annual'` means that we are interested in the annual term reports of a company. Quarter term reports may be obtained by specifying `report_type='quarter'`. In the example above, we are interested in Amazon's annual reports.
   
   </li>
   
   <li>
 
-`start_period=20100101` means that we are asking the algorithm retrieve data starting from 01/01/2010. Input the date as a numeric type with a 4 digit `year` followed by a 2 digit `month`, then a 2 digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guide you to input a valid one.
+`start_period=20100101` means that we are asking the algorithm to retrieve data starting from 01/01/2010. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
   
   </li>
   
   <li>
 
-`end_period=20201231` means that we are asking the algorithm retrieve data until 12/31/2020. Input the date as a numeric type with a 4 digit `year` followed by a 2 digit `month`, then a 2 digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guide you to input a valid one.
+`end_period=20201231` means that we are asking the algorithm retrieve data until 12/31/2020. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
   
   </li>
   
