@@ -70,7 +70,7 @@ import sec_business_scraper
 From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
-amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
+amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
 ```
 <ul>
   
@@ -105,15 +105,16 @@ amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report
   
 </ul>
 
-We have now stored our requested information of Amazon in a variable called `amazon_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
+We have now stored our requested information of Amazon in a variable called `amzn_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
 
 #### STEP 2: Execution to Retrieve Information
-It is now time to send our "librarian" to work. 
+It is now time to send our "librarian" to work !
 
 ```
-annual_income=amazon_annual.ghost_income()
-annual_balance=amazon_annual.ghost_balance()
-annual_cashflow=amazon_annual.ghost_cashflow()
+## returned dataframes are stored in thier corresponding variables
+amzn_annual_income=amazon_annual.ghost_income() 
+amzn_annual_balance=amazon_annual.ghost_balance()
+amzn_annual_cashflow=amazon_annual.ghost_cashflow()
 ```
 <ul>
   <li>
@@ -133,19 +134,46 @@ annual_cashflow=amazon_annual.ghost_cashflow()
   
 </ul>
 
+### Other features
+<ol>
+  <strong><li> Quick Curation Access </li>  </strong>
+  
+  ```
+  amazon_annual.curate_financial_statements('income')
+  
+  
+  ```
+    
+  
+  
+</ol>
+
+
+
 
 ## Company Examples <a name = "examples"></a>
 
-#### Taiwan Semiconductor Manufacturing Company (TSM)
+#### Taiwan Semiconductor Manufacturing Company (ticker symbol: TSM)
+Say I would like to check the Revenue and Net Income of this companny. 
+
+#### Lockheed Martin Corporation (ticker symbol: LMT)
 
 
-#### Lockheed Martin Corporation (LMT)
-
-#### McDonald's Corporation (MCD)
+#### McDonald's Corporation (ticker symbol: MCD)
 
 
 ## How is this different from other scrapers? <a name = "difference"></a>
 keyword is centralize
+
+
+## Limitations 
+
+foreign doesn't have quarter reports
+
+
+returned dataframe isn't well processed 
+
+
 
 
 
