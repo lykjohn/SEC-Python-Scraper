@@ -203,7 +203,7 @@ Say I would like to check the Revenue and Net Income of this companny.
 #### McDonald's Corporation (ticker symbol: MCD)
 
 
-## How is this different from other scrapers? <a name = "differences"></a>
+## Why this scraper? <a name = "differences"></a>
 keyword is centralize
 
 
