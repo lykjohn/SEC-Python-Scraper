@@ -32,16 +32,16 @@
 
 ## Quick Start <a name = "quick_start"></a>
 ### Prerequisites
-<p>
-  <ol> 
-   <strong><li> Install Chrome Driver (skip this if you've already done so):</li></strong>
-      <ul>
-        <li>If you are using Chrome version 85, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=85.0.4183.38/"> 85.0.4183.38 </a> </li>
-        <li>If you are using Chrome version 84, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/">84.0.4147.30 </a> </li>
-        <li>If you are using Chrome version 83, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/">83.0.4103.39 </a> </li>
-        <li>If your Chrome version is neither of the above, go <a href="https://chromedriver.chromium.org/downloads"> here</a> to select a version that suits.</li>
-      </ul>
-   <strong> <li> Install Pytohn Packages:</li></strong>
+
+<ol> 
+ <strong><li> Install Chrome Driver (skip this if you've already done so):</li></strong>
+    <ul>
+      <li>If you are using Chrome version 85, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=85.0.4183.38/"> 85.0.4183.38 </a> </li>
+      <li>If you are using Chrome version 84, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/">84.0.4147.30 </a> </li>
+      <li>If you are using Chrome version 83, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/">83.0.4103.39 </a> </li>
+      <li>If your Chrome version is neither of the above, go <a href="https://chromedriver.chromium.org/downloads"> here</a> to select a version that suits.</li>
+    </ul>
+ <strong> <li> Install Pytohn Packages:</li></strong>
   
 ```
 pip installl os
@@ -54,18 +54,17 @@ pip install numpy
 pip install datetime 
 pip install selenium
 ```
+</ol> 
 
-  </ol> 
-</p>
 
 ### Going to work
-<p> Begin by importing the module. Make sure your current directory is set to where the "sec_business_scraper.py" is located. </p>
+Begin by importing the module. Make sure your current directory is set to where the "sec_business_scraper.py" is located. 
 
 ```
 import sec_business_scraper
 ```
 
-<p> From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. This is  done is a form `sec_business_scraper.Business()` Below is an example: </p>
+From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. This can be done is the form `sec_business_scraper.Business(...)` . Below is an example: 
 
 ```
 anuual_business=sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
