@@ -70,7 +70,8 @@ import sec_business_scraper
 From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
-amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
+amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30160101, end_period=20191231)
+amzn_quarter=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='quarter', start_period=30160101, end_period=20191231)
 ```
 <ul>
   
@@ -87,13 +88,13 @@ amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_t
   
   <li>
   
-`report_type='annual'` means that we are interested in the annual term reports of a company. Quarter term reports may be obtained by specifying `report_type='quarter'`. In the example above, we are interested in Amazon's annual reports.
+`report_type='annual'` means that we are interested in the annual term reports of a company. Quarter term reports may be obtained by specifying `report_type='quarter'`
   
   </li>
   
   <li>
 
-`start_period=20100101` means that we are asking the algorithm to retrieve data starting from 01/01/2010. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
+`start_period=20100101` means that we are asking the algorithm to retrieve data starting from 01/01/2016. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
   
   </li>
   
@@ -105,7 +106,7 @@ amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_t
   
 </ul>
 
-We have now stored our requested information of Amazon in a variable called `amzn_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
+We have now stored our requested information of Amazon in variables called `amzn_annual` and `amzn_quarter`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
 
 #### STEP 2: Execution to Retrieve Information
 It is now time to send our "librarian" to work !
@@ -113,34 +114,37 @@ It is now time to send our "librarian" to work !
 ```
 ## returned dataframes are stored in thier corresponding variables
 amzn_annual_income=amazon_annual.ghost_income() 
-amzn_annual_balance=amazon_annual.ghost_balance()
+amzn_quarter_balance=amazon_annual.ghost_balance()
 amzn_annual_cashflow=amazon_annual.ghost_cashflow()
 ```
 <ul>
   <li>
 
-`amazon_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible. Income statements retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
+`amazon_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible. Income statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
+Here's an excerpt of the dataframe:
+  <img src="images/banner.png" alt='AMZN Annual Income Statement' width='750' height='350' >
+
   </li>
   
   <li>
 
-`amazon_annual.ghost_balance()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual balance sheets of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding balance sheets put sided by side for comparison. This dataframe is designed to contain as few repeated balance sheets columns as possible. Balance sheets retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
+`amazon_quarter.ghost_balance()` means that the "libraian" will search through the entire SEC EDGAR database to look for all quarter balance sheets of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding balance sheets put sided by side for comparison. This dataframe is designed to contain as few repeated balance sheets columns as possible. Balance sheets retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
   </li>
   
   <li>
 
-`amazon_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
+`amazon_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
   </li>
   
 </ul>
 
-#### STEP 1: What Do Everything Look Like?
+#### What Do Everything Look Like?
 
 
 
 ### Other features
 <ol>
-  <strong><li> Quick Curation Access </li>  </strong>
+  <strong><li> Quick Statement Access </li>  </strong>
   
   ```
   amazon_annual.curate_financial_statements('income')
