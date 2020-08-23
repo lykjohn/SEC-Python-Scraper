@@ -156,7 +156,7 @@ Here's an excerpt of the dataframe:
   amzn_quarter.curate_financial_statements(statement_type='balance')
   amzn_annual.curate_financial_statements(statement_type='cashflow')
   ```
-  XXX
+  The `.curate_financial_statements(...)` returns a dataframe holding periods and their respective reports after retrieving them from the SEC EDGAR database. Although being infrequently useful, this may offer a neat way to scrape financial statements while keeping track of each statement scraped.
   
   
   <strong><li> Quick Update of Current Statements </li>  </strong>
