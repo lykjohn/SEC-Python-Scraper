@@ -119,23 +119,25 @@ amzn_annual_cashflow=amazon_annual.ghost_cashflow()
 ```
 <ul>
   <li>
+    <img src="images/amzn_annual_income.png" alt='AMZN Annual Income Statement' width='750' height='350' >
 
-`amazon_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible. Income statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
+`amzn_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible. Income statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
 Here's an excerpt of the dataframe:
-  <img src="images/amzn_annual_income.png" alt='AMZN Annual Income Statement' width='750' height='350' >
 
   </li>
   
   <li>
+    <img src="images/amzn_quarter_balance.png" alt='AMZN Quarter Balance Sheet' width='750' height='350' >
 
-`amazon_quarter.ghost_balance()` means that the "libraian" will search through the entire SEC EDGAR database to look for all quarter balance sheets of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding balance sheets put sided by side for comparison. This dataframe is designed to contain as few repeated balance sheets columns as possible. Balance sheets retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
-  <img src="images/amzn_quarter_balance.png" alt='AMZN Quarter Balance Sheet' width='750' height='350' >
+`amzn_quarter.ghost_balance()` means that the "libraian" will search through the entire SEC EDGAR database to look for all quarter balance sheets of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding balance sheets put sided by side for comparison. This dataframe is designed to contain as few repeated balance sheets columns as possible. Balance sheets retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
+  
   </li>
   
   <li>
-
-`amazon_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
-  <img src="images/amzn_annual_cashflow.png" alt='AMZN AnnualCashflow Statement' width='750' height='350' >
+    <img src="images/amzn_annual_cashflow.png" alt='AMZN AnnualCashflow Statement' width='750' height='350' >
+    
+`amzn_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
+  
   </li>
   
 </ul>
@@ -145,20 +147,28 @@ Here's an excerpt of the dataframe:
 ### Other features
 <ol>
   <strong><li> Quick Statement Access </li>  </strong>
+  <img src="images/curated_statements.png" alt='Book Value' width='750' height='350' >
+  ```
+  amzn_annual.curate_financial_statements(statement_type='income')
+  amzn_quarter.curate_financial_statements(statement_type='balance')
+  amzn_annual.curate_financial_statements(statement_type='cashflow')
+  ```
   
-  ```
-  amazon_annual.curate_financial_statements('income')
-  ```
+  
   <strong><li> Quick Update of Current Statements </li>  </strong>
   
   ```
-  amazon_annual.curate_financial_statements('income')
+  amzn_annual.update_financial_statements('income')
+  amzn_quarter.update_financial_statements('balance')
+  amzn_annual.update_financial_statements('cashflow')
   ```
   
   <strong><li> Browse Company Risks </li>  </strong>
   
   ```
-  amazon_annual.curate_financial_statements('income')
+  amzn_annual.risk_factors_exhibit('enterprise')
+  amzn_quarter.update_financial_statements('balance')
+  amzn_annual.update_financial_statements('cashflow')
   ```
   
     
