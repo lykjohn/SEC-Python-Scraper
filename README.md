@@ -67,7 +67,7 @@ import sec_business_scraper
 From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
-anuual_business=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
+amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
 ```
 <ul>
   
@@ -101,6 +101,8 @@ anuual_business=sec_business_scraper.Business(foreign=False, symbol='AMZN', repo
   </li>
   
 </ul>
+
+We have noe stored our business business entity of Amazon in a variable called `amazon_annual`. 
 
 
 ## Examples <a name = "examples"></a>
