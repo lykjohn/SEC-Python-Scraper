@@ -179,9 +179,11 @@ Here's an excerpt of the dataframe:
   <strong><li> Browse Company Risks </li>  </strong>
   
   ```
-  amzn_annual.risk_factors_exhibit('enterprise')
-  amzn_quarter.update_financial_statements('balance')
-  amzn_annual.update_financial_statements('cashflow')
+  amzn_annual.risk_factors_exhibit(risk_type='enterprise')
+  amzn_annual.risk_factors_exhibit(risk_type='market')
+  
+  
+  
   ```
   XXX
   
