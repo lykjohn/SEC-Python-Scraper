@@ -43,16 +43,17 @@
       </ul>
    <strong> <li> Install Pytohn Packages:</li></strong>
   
-
->pip installl os
->pip install pickle
->pip install re
->pip install bs4
->pip install requests
->pip install pandas
->pip install numpy
->pip install datetime 
->pip install selenium
+```
+pip installl os
+pip install pickle
+pip install re
+pip install bs4
+pip install requests
+pip install pandas
+pip install numpy
+pip install datetime 
+pip install selenium
+```
 
   </ol> 
 </p>
@@ -60,14 +61,20 @@
 ### Going to work
 <p> Begin by importing the module. Make sure your current directory is set to where the "sec_business_scraper.py" is located. </p>
 
-```bash
+```
 import sec_business_scraper
 ```
-<p> From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. Below is an example: </p>
 
->sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
+<p> From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. This is  done is a form `sec_business_scraper.Business()` Below is an example: </p>
 
-
+```
+anuual_business=sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
+```
+<p> We start by inputting the first parameter 
+  
+  
+  
+  we've created a business entity that is ready to store Microsoft's company </p>
 
 
 
