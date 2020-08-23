@@ -109,11 +109,11 @@ We have now stored our requested information of Amazon in a variable called `ama
 
 #### STEP 2: Execution for Information to be Retrieved 
 It is now time to send our "librarian" to work. 
+
 ```
 annual_income=amazon_annual.ghost_income()
 annual_balance=amazon_annual.ghost_balance()
 annual_cashflow=amazon_annual.ghost_cashflow()
-
 ```
 <ul>
   <li>
