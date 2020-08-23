@@ -66,7 +66,7 @@ Begin by importing the module. Make sure your current directory is set to where 
 import sec_business_scraper
 ```
 
-#### STEP 1: Specify the Type of Information We Want
+#### STEP 1: Specify the Type of Information 
 From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
@@ -107,7 +107,7 @@ amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report
 
 We have now stored our requested information of Amazon in a variable called `amazon_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
 
-#### STEP 2: Execution for Information to be Retrieved 
+#### STEP 2: Execution to Retrieve Information
 It is now time to send our "librarian" to work. 
 
 ```
