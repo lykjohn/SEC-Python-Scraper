@@ -60,9 +60,10 @@ pip install selenium
 ### Going to work
 <p> Begin by importing the module. Make sure your current directory is set to where the "sec_business_scraper.py" is located. </p>
 
-```bash
+```
 import sec_business_scraper
 ```
+
 
 
 
