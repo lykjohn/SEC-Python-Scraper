@@ -58,12 +58,15 @@ pip install selenium
 
 
 ### Going to work
+
+#### STEP 0: Load the Module into Python
 Begin by importing the module. Make sure your current directory is set to where the "sec_business_scraper.py" is located. 
 
 ```
 import sec_business_scraper
 ```
 
+#### STEP 1: Specify the Type of Information We Want
 From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
@@ -96,7 +99,7 @@ amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report
   
   <li>
 
-`end_period=20201231` means that we are asking the algorithm retrieve data until 12/31/2020. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
+`end_period=20201231` means that we are asking the algorithm retrieve data until 12/31/2019. Input the date as a numeric type with a 4-digit `year` followed by a 2-digit `month`, then a 2-digit `day`. There is NO need to format the date with seperators such as '/' or '-'. The algorithm detects for leap years and non-valid dates, then guides you to input a valid one.
   
   </li>
   
@@ -104,9 +107,25 @@ amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report
 
 We have now stored our requested information of Amazon in a variable called `amazon_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
 
+#### STEP 2: Execution for Information to be Retrieved 
+It is now time to send our "librarian" to work. 
+```
+annual_income=amazon_annual.ghost_income()
+annual_balance=amazon_annual.ghost_balance()
+annual_cashflow=amazon_annual.ghost_cashflow()
 
+```
+<ul>
+  <li>
 
+`amazon_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible.
 
+  </li>
+  
+  
+  
+  
+<ul>
 
 
 ## Examples <a name = "examples"></a>
