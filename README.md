@@ -136,10 +136,12 @@ annual_cashflow=amazon_annual.ghost_cashflow()
 
 ## Company Examples <a name = "examples"></a>
 
-#### Taiwan Semiconductor Manufacturing Company
+#### Taiwan Semiconductor Manufacturing Company (TSM)
 
 
-#### Lockheed Martin Corporation
+#### Lockheed Martin Corporation (LMT)
+
+#### McDonald's Corporation (MCD)
 
 
 ## How is this different from other scrapers? <a name = "difference"></a>
