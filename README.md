@@ -4,7 +4,7 @@
   <img src="images/banner.png" alt='Book Value' width='750' height='350' >
 </p>
   
-<h1  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper </h1>
+<h2  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper and Centralizer</h2>
 
 
 [![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
@@ -64,12 +64,29 @@ Begin by importing the module. Make sure your current directory is set to where 
 import sec_business_scraper
 ```
 
-From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example: 
+From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example with Amazon: 
 
 ```
-anuual_business=sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
+anuual_business=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100101, end_period=20191231)
 ```
-<p> We start by inputting the first parameter 
+<ul>
+  
+  <li>  
+
+  `foreign=False` means that our company of interest is a U.S. based business. If you are interest in a foreign based business, for example Alibaba Group in China, then specify `foreign=True`. In our case Amazon is a U.S. based company so we set the foreign logic to be False.
+  
+  </li>
+  
+  <li>
+  
+`symbol=AMZN` means we are specifying the stock ticker symbol of a businsess. Stock ticker symbol for all publicly traded companies can be searched through your local browser. In Amazon's case, its stock ticker symbol is 'AMZN'. 
+
+</li>
+
+
+If your company of interest is foreign (Non-U.S.) based, then specify , otherwise, set `foreign=False`. In this case,  Microsoft has a stock ticker symbol 'MSFT', therefore, we set `symbol='MSFT'` to let the algorithm know our company of interest. Stock ticker symbol of all companies can be easily searched in your browser. Next, the algorithm would also like to know what type of information to grab. Specify `report_type='annual '` if you are interested in the company's annual term filings and `report_type='quarter'` if interested in its quarter term filings. Just now, we set the report type to be annual since we would like to look at annual data of Microsoft. Finally, state the date range for the algorithm to scan the filings. In the above example, we stated `start_period`
+
+
   
   
   
