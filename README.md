@@ -19,7 +19,7 @@
 ## What is this about? <a name = "about"></a>
 <p>
   In the era of information unity, the uncentralized fashion of delivering financial information page after page is becoming a less paceful practice. This package aims to provide dynamic functions to retrieve and centralize financial information from the U.S. Securities and Exchange Commission (SEC) EDGAR database, a web reposoitory that stores reliable filings and track records of all publicly-traded companies in the U.S.. Think of this as your "librarian, let it know the specific company statement(s) you are looking for, then it will gather, tidy, then delivery them to you. The major catch is that there is only one place to look, regardless how many statements you've requested.
-  
+</p>
 
 
 ## How does this work? <a name = "how_it_works"></a>
@@ -119,27 +119,23 @@ annual_cashflow=amazon_annual.ghost_cashflow()
   <li>
 
 `amazon_annual.ghost_income()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual income statements of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding income statements put sided by side for comparison. This dataframe is designed to contain as few repeated income statement columns as possible. Income statements retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
-
   </li>
   
   <li>
 
 `amazon_annual.ghost_balance()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual balance sheets of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding balance sheets put sided by side for comparison. This dataframe is designed to contain as few repeated balance sheets columns as possible. Balance sheets retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
-
-
   </li>
   
   <li>
 
 `amazon_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2010 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder just like a book shelf in the library.
-
-
   </li>
   
 <ul>
 
 
 ## Examples <a name = "examples"></a>
+
 
 
 
