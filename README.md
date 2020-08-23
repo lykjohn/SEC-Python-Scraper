@@ -138,7 +138,7 @@ Here's an excerpt of the dataframe:
     
 `amzn_annual.ghost_cashflow()` means that the "libraian" will search through the entire SEC EDGAR database to look for all annual cashflow statements of Amazon between 01/01/2016 and 12/31/2019, and return ONE dataframe with corresponding cashflow statements put sided by side for comparison. This dataframe is designed to contain as few repeated cashflow statements columns as possible. Cashflow statements retrieved between the specified periods are stored in the "statemnet_pile" folder as your book shelf.
 Here's an excerpt of the dataframe:
-<img src="images/amzn_annual_cashflow.png" alt='AMZN AnnualCashflow Statement' width='750' height='350' >
+  <img src="images/amzn_annual_cashflow.png" alt='AMZN AnnualCashflow Statement' width='750' height='350' >
 
   </li>
   
