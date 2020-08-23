@@ -136,19 +136,17 @@ annual_cashflow=amazon_annual.ghost_cashflow()
 
   </li>
   
-  
-  
 <ul>
 
 
 ## Examples <a name = "examples"></a>
 
+
+
 ## How is this different from other scrapers? <a name = "difference"></a>
 keyword is centralize
 
-```
-Give the example
-```
+
 
 ## Acknowledgments <a name = "acknowledge"></a>
 
