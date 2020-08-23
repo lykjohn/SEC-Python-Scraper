@@ -33,7 +33,6 @@
 ## Quick Start <a name = "quick_start"></a>
 ### Prerequisites
 <p>
-  
   <ol> 
    <strong><li> Install Chrome Driver (skip this if you've already done so):</li></strong>
       <ul>
@@ -55,13 +54,7 @@ pip install numpy
 pip install datetime 
 pip install selenium
 ```
-  </ol>
-  
-  
-
-
-  </li> 
-  
+  </ol> 
 </p>
 
 
