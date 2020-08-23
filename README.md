@@ -181,9 +181,6 @@ Here's an excerpt of the dataframe:
   ```
   amzn_annual.risk_factors_exhibit(risk_type='enterprise')
   amzn_annual.risk_factors_exhibit(risk_type='market')
-  
-  
-  
   ```
   XXX
   
