@@ -150,6 +150,7 @@ Here's an excerpt of the dataframe:
 <ol>
   <strong><li> Quick Statement Access </li>  </strong>
   <img src="images/curated_statements.png" alt='Book Value' width='750' height='350' >
+  
   ```
   amzn_annual.curate_financial_statements(statement_type='income')
   amzn_quarter.curate_financial_statements(statement_type='balance')
@@ -160,10 +161,19 @@ Here's an excerpt of the dataframe:
   <strong><li> Quick Update of Current Statements </li>  </strong>
   
   ```
-  amzn_annual.update_financial_statements('income')
-  amzn_quarter.update_financial_statements('balance')
-  amzn_annual.update_financial_statements('cashflow')
+  amzn_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='annual', start_period=30100214, end_period=20180214)
+  amzn_quarter=sec_business_scraper.Business(foreign=False, symbol='AMZN', report_type='quarter', start_period=30100214, end_period=20180214)
+  
+  ## Update the annual income statements on shelf 
+  amzn_annual.update_financial_statements(statement_type='income')
+  
+  ## Update the quarter balance sheets on shelf 
+  amzn_quarter.update_financial_statements(statement_type='balance')
+  
+  ## Update the annual cashflow statements on shelf 
+  amzn_annual.update_financial_statements(statement_type='cashflow')
   ```
+  In the case when you are interested in the same company but over a different period, which in this case is from 02/14/2010 to 02/14/2018, `amzn_annual.update_financial_statements(...)` can be called to update your statement_pile folder to contain statements of the newly updated time range. This will not overwrite the previous statemnents that the program has retrieved. '...' represents the statement type that you would like to update.
   
   <strong><li> Browse Company Risks </li>  </strong>
   
