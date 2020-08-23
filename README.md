@@ -134,9 +134,12 @@ annual_cashflow=amazon_annual.ghost_cashflow()
 </ul>
 
 
-## Examples <a name = "examples"></a>
+## Company Examples <a name = "examples"></a>
+
+#### Taiwan Semiconductor Manufacturing Company
 
 
+#### Lockheed Martin Corporation
 
 
 ## How is this different from other scrapers? <a name = "difference"></a>
