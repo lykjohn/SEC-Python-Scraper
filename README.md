@@ -102,7 +102,11 @@ amazon_annual=sec_business_scraper.Business(foreign=False, symbol='AMZN', report
   
 </ul>
 
-We have noe stored our business business entity of Amazon in a variable called `amazon_annual`. 
+We have now stored our requested information of Amazon in a variable called `amazon_annual`. This should just take a few miliseconds to complete because the algorithm is just initializing the information we've requested. The next step is to send out metaphorically, a "librarian" to search for our requested information.
+
+
+
+
 
 
 ## Examples <a name = "examples"></a>
