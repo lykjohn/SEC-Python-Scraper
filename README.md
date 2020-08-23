@@ -156,6 +156,7 @@ Here's an excerpt of the dataframe:
   amzn_quarter.curate_financial_statements(statement_type='balance')
   amzn_annual.curate_financial_statements(statement_type='cashflow')
   ```
+  XXX
   
   
   <strong><li> Quick Update of Current Statements </li>  </strong>
@@ -182,6 +183,7 @@ Here's an excerpt of the dataframe:
   amzn_quarter.update_financial_statements('balance')
   amzn_annual.update_financial_statements('cashflow')
   ```
+  XXX
   
     
   
