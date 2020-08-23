@@ -64,7 +64,7 @@ Begin by importing the module. Make sure your current directory is set to where 
 import sec_business_scraper
 ```
 
-From the sec_business_scraper module, create a business entity to store a specified type of financial information to scrape. This can be done is the form `sec_business_scraper.Business(...)` . Below is an example: 
+From the sec_business_scraper module, create a business entity to store a specified type of financial information. This can be done in the form `sec_business_scraper.Business(...)` . Below is an example: 
 
 ```
 anuual_business=sec_business_scraper.Business(foreign=False, symbol='MSFT', report_type='annual', 30100101,20191231)
