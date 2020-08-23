@@ -43,12 +43,22 @@
         <li>If your Chrome version is neither of the above, go <a href="https://chromedriver.chromium.org/downloads"> here</a> to select a version that suits.</li>
       </ul>
    <strong> <li> Install Pytohn Packages:</li></strong>
+  
+```bash
+pip installl os
+pip install pickle
+pip install re
+pip install bs4
+pip install requests
+pip install pandas
+pip install numpy
+pip install datetime 
+pip install selenium
+```
   </ol>
   
   
-```bash
-pip install pandas
-```
+
 
   </li> 
   
