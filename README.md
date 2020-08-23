@@ -148,9 +148,19 @@ Here's an excerpt of the dataframe:
   
   ```
   amazon_annual.curate_financial_statements('income')
-  
+  ```
+  <strong><li> Quick Update of Current Statements </li>  </strong>
   
   ```
+  amazon_annual.curate_financial_statements('income')
+  ```
+  
+  <strong><li> Browse Company Risks </li>  </strong>
+  
+  ```
+  amazon_annual.curate_financial_statements('income')
+  ```
+  
     
   
   
