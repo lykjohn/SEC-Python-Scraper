@@ -41,7 +41,7 @@
       <li>If you are using Chrome version 83, please download ChromeDriver <a href="https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/">83.0.4103.39 </a> </li>
       <li>If your Chrome version is neither of the above, go <a href="https://chromedriver.chromium.org/downloads"> here</a> to select a version that suits.</li>
     </ul>
- <strong> <li> Install Pytohn Packages:</li></strong>
+ <strong> <li> Install Python Packages:</li></strong>
   
 ```
 pip installl os
