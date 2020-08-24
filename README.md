@@ -193,16 +193,19 @@ Here's an excerpt of the dataframe:
 ## Company Examples <a name = "examples"></a>
 
 #### Taiwan Semiconductor Manufacturing Company (ticker symbol: TSM)
-Say I would like to check the Revenue and Net Income of this companny. 
+Say I would like to check the Revenue and Net Income of this companny between 02/14/2010 and 02/14/2015.
+```
+tsm_annual=sec_business_scraper.Business(foreign=True, symbol='TSM', report_type='annual', start_period=20100214, end_period=20150214)
+tsm_quarter=sec_business_scraper.Business(foreign=True, symbol='TSM', report_type='quarter', start_period=20100214, end_period=20150214)
+```
+Takeaway: remember to set the foreign logic, `foreign=` to True when analyzing foreign companies.
+
 
 #### Lockheed Martin Corporation (ticker symbol: LMT)
 
 
 #### McDonald's Corporation (ticker symbol: MCD)
 
-
-## Why this scraper? <a name = "differences"></a>
-keyword is centralize
 
 
 ## Limitations <a name = "limitations"></a>
@@ -211,6 +214,14 @@ foreign doesn't have quarter reports
 
 
 returned dataframe isn't well processed 
+
+
+
+
+## Why this scraper? <a name = "differences"></a>
+keyword is centralize
+
+
 
 
 
