@@ -4,7 +4,7 @@
   <img src="images/banner.png" alt='Book Value' width='750' height='350' >
 </p>
   
-<h2  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper and Centralizer</h2>
+<h3  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper and Centralizer</h3>
 
 
 [![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
