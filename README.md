@@ -240,7 +240,9 @@ Eyeball the first columns for the Total Current Assets and Total Current Liabili
   
  </ul>
 
-## Why this scraper? <a name = "differences"></a>
+## Why This Program? <a name = "differences"></a>
+Many scrapers 
+
 keyword is centralize
 
 
@@ -248,7 +250,10 @@ keyword is centralize
 
 
 ## Acknowledgments <a name = "acknowledge"></a>
-
+<ul>
+  <li> https://airccj.org/CSCP/vol7/csit76615.pdf</li>
+  <li> https://github.com/sewardlee337/finreportr.git </li>
+</ul>
 
 
 
