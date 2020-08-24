@@ -148,17 +148,7 @@ Here's an excerpt of the dataframe:
 
 ### Other features
 <ol>
-  <strong><li> Quick Statement Access </li>  </strong>
-  <img src="images/curated_statements.png" alt='Book Value' width='750' height='350' >
-  
-  ```
-  amzn_annual.curate_financial_statements(statement_type='income')
-  amzn_quarter.curate_financial_statements(statement_type='balance')
-  amzn_annual.curate_financial_statements(statement_type='cashflow')
-  ```
-  The `.curate_financial_statements(...)` returns a dataframe holding periods and their respective reports after retrieving them from the SEC EDGAR database. Although being infrequently useful, this may offer a neat way to scrape financial statements while keeping track of each statement scraped.
-  
-  
+ 
   <strong><li> Quick Update of Current Statements </li>  </strong>
   
   ```
@@ -174,23 +164,31 @@ Here's an excerpt of the dataframe:
   ## Update the annual cashflow statements on shelf 
   amzn_annual.update_financial_statements(statement_type='cashflow')
   ```
-  In the case when you are interested in the same company but over a different period, which in this case is from 02/14/2010 to 02/14/2018, `.update_financial_statements(...)` can be called to update your statement_pile folder to contain statements of the newly updated time range. This will not overwrite the previous statemnents that the program has retrieved. '...' represents the statement type that you would like to update.
+  When you are interested in the same company but over a different period, which in this case is from 02/14/2010 to 02/14/2018, `.update_financial_statements(...)` can be called to update your statement_pile folder to contain statements of the newly updated time range. This will not overwrite the previous statemnents that the program has retrieved. '...' represents the statement type that you would like to update.
   
+  <strong><li> Browse Company Risks </li>  </strong>
+  ```
+  ## exhibiting the annual reports in browser
+  amzn_annual.financial_statements_exhitbit()
+  
+  ## exhibiting the quarter report in browser
+  amzn_quarter.financial_statements_exhitbit()
+  
+  ```
+  Here's one for analysts who would like to scrutinize full reports page by page.`.financial_statements_exhitbit()` displays all annual (10-K) or quarter (10-Q)reports of a company over the specified period. Each report is displayed in a seperate tab, with the report best-scrolled to the section containing the financial statements. This is typically the "Item 8- Financial Statements and Supplementary Data" section for annual reports and "Item 1- Financial Statements" section for quarter reports. All tabs are hosted by only one windows, thus allowing you to locate the correct report from just ONE place.
+ 
   <strong><li> Browse Company Risks </li>  </strong>
   
   ```
+  ## exhibiting enterprise (internal) risk
   amzn_annual.risk_factors_exhibit(risk_type='enterprise')
+  
+  ## exhibiting enterprise (external) risk
   amzn_annual.risk_factors_exhibit(risk_type='market')
   ```
-  XXX
-  
+  Similarly, `.risk_factors_exhitbit(...)` displays all annual (10-K) or quarter (10-Q)reports of a company over the specified period, with each report best-scrolled to the risk section. '...' represents the risk type of interest. An `enterprise` risk type includes internal pressures such as change in management structure and poor employee relationships; a `market` risk type includes external pressures such as industry compettition and customer liability. 
     
-  
-  
 </ol>
-
-
-
 
 ## Company Examples <a name = "examples"></a>
 
