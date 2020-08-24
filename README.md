@@ -173,7 +173,6 @@ Here's an excerpt of the dataframe:
   
   ## exhibiting the quarter report in browser
   amzn_quarter.financial_statements_exhitbit()
-  
   ```
   Here's one for analysts who would like to scrutinize full reports page by page.`.financial_statements_exhitbit()` displays all annual (10-K) or quarter (10-Q)reports of a company over the specified period. Each report is displayed in a seperate tab, with the report best-scrolled to the section containing the financial statements. This is typically the "Item 8- Financial Statements and Supplementary Data" section for annual reports and "Item 1- Financial Statements" section for quarter reports. All tabs are hosted by only one windows, thus allowing you to locate the correct report from just ONE place.
  
