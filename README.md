@@ -190,19 +190,36 @@ Here's an excerpt of the dataframe:
     
 </ol>
 
-## Company Examples <a name = "examples"></a>
+## Company Examples with Key Takeaways<a name = "examples"></a>
 
 #### Taiwan Semiconductor Manufacturing Company (ticker symbol: TSM)
-Say I would like to check the Revenue and Net Income of this companny between 02/14/2010 and 02/14/2015.
+Scenario: I would like to examine the annual Net Income and  Free Cash Flow of this companny between 02/14/2010 and 02/14/2015. Net Income is an item in the income statement while Free Cash Flow is an item in the statement of cashflows.
 ```
+## creating a business entity to store the specified type of information
 tsm_annual=sec_business_scraper.Business(foreign=True, symbol='TSM', report_type='annual', start_period=20100214, end_period=20150214)
-tsm_quarter=sec_business_scraper.Business(foreign=True, symbol='TSM', report_type='quarter', start_period=20100214, end_period=20150214)
+
+## requesting the program to gather income statement and combine them into one dataframe
+tsm_annual_income=tsm_annual.ghost_income()
+
+## requesting the program to gather statement of cash flows and combine them into one dataframe
+tsm_annual_cashflow=tsm_annual.ghost_cashflow()
 ```
-Takeaway: remember to set the foreign logic, `foreign=` to True when analyzing foreign companies.
+The ONE place you have to look for historical Net Income will be in the `tsm_annual_income` dataframe. The ONE place you have to look for historical Free Cash Flow will be in the `tsm_annual_cashflow` dataframe.
+
+Takeaway: remember to set the foreign logic to true, `foreign=True`. when analyzing foreign companies.
 
 
 #### Lockheed Martin Corporation (ticker symbol: LMT)
+Scenario: I would like to calculate the Current Ratio of the Company as of the most recent quarter.  Current Ratio = Total Current Assets / Total Current Liabilities. Both Total Current Assets and Total Current Liabilities are items in the quarter balance sheet. 
+```
+## creating a business entity to store the specified type of information
+lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_type='quarter', start_period=201901001, end_period=20191201)
 
+## requesting the program to gather balance sheets and combine them into one dataframe
+lmt_quarter_balance=lmt_quarter.ghost_balance()
+```
+Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter.
+Takeaway: 
 
 #### McDonald's Corporation (ticker symbol: MCD)
 
