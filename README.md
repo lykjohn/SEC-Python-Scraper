@@ -229,7 +229,7 @@ lmt_quarter_balance=lmt_quarter.ghost_balance()
 The time range is now expanded from <s>(10/01/2019,12/01/2019)</s> to (09/01/2019,12/31/2019). This should now work. If it doesn't, keep expanding the time range.
 Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter, then apply calculations.
 
-Takeaway: Whenever the program complains about not being able to find filings in a too-narrowed time frame, try expanding the time range. 
+<storng>Takeaway:</strong> Whenever the program complains about not being able to find filings in a too-narrowed time frame, try expanding the time range. 
 
 ## Limitations <a name = "limitations"></a>
 
