@@ -218,7 +218,7 @@ lmt_quarter=sec_business_scraper.Business(foreign=False, symbol='LMT', report_ty
 ## requesting the program to gather balance sheets and combine them into one dataframe
 lmt_quarter_balance=lmt_quarter.ghost_balance()
 ```
-<img src="images/quarter_short_time.png" alt='Time Range Too Short' width=50' height='25' >
+<img src="images/quarter_short_time.png" alt='Time Range Too Short' width='750' height='35' >
 
 This message is shown because there is no quarter filings contained within this time range. Trying expanding the time range.
 
