@@ -235,7 +235,7 @@ Eyeball the first columns for the Total Current Assets and Total Current Liabili
 
 <ul>
   <li> Quarter reports are NOT available for foreign companies.</li>  
-  <li> This program works mostly for all filings after 2009 because a statemnet excerpts were less standardized before 2009. <li>
+  <li> This program works mostly for all filings after 2009 because a statemnet excerpts were less standardized before 2009. </li>
   <li> Despite combing all information in one dataframe, the data is not best-formatted and will require some eyeballing to grasp each items from the combined dataframe. This may be improved in the next version.</li>
   <li> A seperate business entity is needed when initializing information of different periods, "report_type='annual'" and "report_type='quarter'". One business entity may be condsidered by moving the "report_type" parameter to the execution stpe.</li>
   
