@@ -166,7 +166,7 @@ Here's an excerpt of the dataframe:
   ```
   When you are interested in the same company but over a different period, which in this case is from 02/14/2010 to 02/14/2018, `.update_financial_statements(...)` can be called to update your statement_pile folder to contain statements of the newly updated time range. This will not overwrite the previous statemnents that the program has retrieved. '...' represents the statement type that you would like to update.
   
-  <strong><li> Browse Company Risks </li>  </strong>
+  <strong><li> Browse Financial Report Pages </li>  </strong>
   ```
   ## exhibiting the annual reports in browser
   amzn_annual.financial_statements_exhitbit()
