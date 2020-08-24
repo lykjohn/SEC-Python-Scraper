@@ -190,7 +190,7 @@ Here's an excerpt of the dataframe:
     
 </ol>
 
-## Company Examples with Key Takeaways<a name = "examples"></a>
+## Company Examples and Key Takeaways<a name = "examples"></a>
 
 #### Taiwan Semiconductor Manufacturing Company (ticker symbol: TSM)
 Scenario: I would like to examine the annual Net Income and  Free Cash Flow of this companny between 02/14/2010 and 02/14/2015. Net Income is an item in the income statement while Free Cash Flow is an item in the statement of cashflows.
@@ -206,7 +206,7 @@ tsm_annual_cashflow=tsm_annual.ghost_cashflow()
 ```
 The ONE place you have to look for historical Net Income will be in the `tsm_annual_income` dataframe. The ONE place you have to look for historical Free Cash Flow will be in the `tsm_annual_cashflow` dataframe.
 
-Takeaway: remember to set the foreign logic to true, `foreign=True`. when analyzing foreign companies.
+<b>Takeaway:<b> remember to set the foreign logic to true, `foreign=True`. when analyzing foreign companies.
 
 
 #### Lockheed Martin Corporation (ticker symbol: LMT)
@@ -234,7 +234,7 @@ Takeaway: Whenever the program complains about not being able to find filings in
 ## Limitations <a name = "limitations"></a>
 
 <ul>
-  <li> Quarter reports are NOT available for foreign companies</li>  
+  <li> Quarter reports are NOT available for foreign companies.</li>  
   <li> Despite combing all information in one dataframe, the data is not best-formatted and will require some eyeballing to grasp each items from the combined dataframe. This may be improved in the next version.</li>
   <li> A seperate business entity is needed when initializing information of different periods, "report_type='annual'" and "report_type='quarter'". One business entity may be condsidered by moving the "report_type" parameter to the execution stpe.</li>
   
