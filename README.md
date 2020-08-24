@@ -14,7 +14,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
 
 
-[What is this about?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How it workds](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Limitations](#limitations)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why this scraper?](#differences)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledgement)&nbsp;&nbsp;&nbsp;
+[What is this about?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How it workds](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Limitations](#limitations)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why this scraper?](#differences)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledgement)&nbsp;&nbsp;&nbsp;
 
 ## What is this about? <a name = "about"></a>
 
@@ -225,7 +225,7 @@ This message is shown because there is no quarter filings contained within this 
 ```
 lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_type='quarter', start_period=20190901, end_period=20191231)
 ```
-The time range is now expanded from <s>(10/01/2019,12/01/2019)</s> to (09/01/2019,12/31/2019). This should now work. If it doesn't, keep eapanding the time range.
+The time range is now expanded from <s>(10/01/2019,12/01/2019)</s> to (09/01/2019,12/31/2019). This should now work. If it doesn't, keep expanding the time range.
 Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter, then apply calculations.
 
 Takeaway: Whenever the program complains about not being able to find filings in a too-narrowed time frame, try expanding the time range. 
