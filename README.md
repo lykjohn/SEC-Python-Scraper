@@ -206,7 +206,7 @@ tsm_annual_cashflow=tsm_annual.ghost_cashflow()
 ```
 The ONE place you have to look for historical Net Income will be in the `tsm_annual_income` dataframe. The ONE place you have to look for historical Free Cash Flow will be in the `tsm_annual_cashflow` dataframe.
 
-<b>Takeaway:<b> remember to set the foreign logic to true, `foreign=True`. when analyzing foreign companies.
+<strong>Takeaway:</strong> remember to set the foreign logic to true, `foreign=True`. when analyzing foreign companies.
 
 
 #### Lockheed Martin Corporation (ticker symbol: LMT)
