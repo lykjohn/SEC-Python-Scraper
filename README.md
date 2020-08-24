@@ -235,17 +235,14 @@ Eyeball the first columns for the Total Current Assets and Total Current Liabili
 
 <ul>
   <li> Quarter reports are NOT available for foreign companies.</li>  
+  <li> This program works mostly for all filings after 2009 because a statemnet excerpts were less standardized before 2009. <li>
   <li> Despite combing all information in one dataframe, the data is not best-formatted and will require some eyeballing to grasp each items from the combined dataframe. This may be improved in the next version.</li>
   <li> A seperate business entity is needed when initializing information of different periods, "report_type='annual'" and "report_type='quarter'". One business entity may be condsidered by moving the "report_type" parameter to the execution stpe.</li>
   
  </ul>
 
 ## Why This Program? <a name = "differences"></a>
-Many scrapers 
-
-keyword is centralize
-
-
+Rather than parsing through each report and extracting the financial statements of interest, this program virtually downloads parsed-ready financial statements from the SEC repository. These financial statements were parsed by the SEC officials and stored as multiple tables in an excel spreadsheet. That being said, financial data extracted from this source are more reliable than any one conventional scraper can achieve. While having a reliably-parsed statement is important, having an analyst-friendly output is also crucial. The keyword here is centralize. How may an analyst go through necessary items year by year, statement by statement, and company by company without much hassle of losing track? The execution functions `.ghost_income()`, `.ghost_balance()`, and `.ghost_cashflow()` serve not only the effort of a scraper, but also a centralizer that optimally tidiy all relevant data in one place with minimal data loss. The outcome? Well, there are no longer needs to frequently jump between statements and reports to grasp necessary items during an analysis.
 
 
 
