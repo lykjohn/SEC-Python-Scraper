@@ -213,12 +213,12 @@ Takeaway: remember to set the foreign logic to true, `foreign=True`. when analyz
 Scenario: I would like to calculate the Current Ratio of the Company as of the most recent quarter.  Current Ratio = Total Current Assets / Total Current Liabilities. Both Total Current Assets and Total Current Liabilities are items in the quarter balance sheet. 
 ```
 ## creating a business entity to store the specified type of information
-lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_type='quarter', start_period=201901001, end_period=20191201)
+lmt_quarter=sec_business_scraper.Business(foreign=False, symbol='LMT', report_type='quarter', start_period=201901001, end_period=20191201)
 
 ## requesting the program to gather balance sheets and combine them into one dataframe
 lmt_quarter_balance=lmt_quarter.ghost_balance()
 ```
-<img src="images/quarter_short_time.png" alt='Time Range Too Short' width='750' height='350' >
+<img src="images/quarter_short_time.png" alt='Time Range Too Short' width=50' height='25' >
 
 This message is shown because there is no quarter filings contained within this time range. Trying expanding the time range.
 
