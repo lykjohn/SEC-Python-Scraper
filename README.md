@@ -224,6 +224,7 @@ This message is shown because there is no quarter filings contained within this 
 
 ```
 lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_type='quarter', start_period=20190901, end_period=20191231)
+lmt_quarter_balance=lmt_quarter.ghost_balance()
 ```
 The time range is now expanded from <s>(10/01/2019,12/01/2019)</s> to (09/01/2019,12/31/2019). This should now work. If it doesn't, keep expanding the time range.
 Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter, then apply calculations.
@@ -232,13 +233,12 @@ Takeaway: Whenever the program complains about not being able to find filings in
 
 ## Limitations <a name = "limitations"></a>
 
-foreign doesn't have quarter reports
-
-
-returned dataframe isn't well processed 
-
-
-
+<ul>
+  <li> Quarter reports are NOT available for foreign companies</li>  
+  <li> Despite combing all information in one dataframe, the data is not best-formatted and will require some eyeballing to grasp each items from the combined dataframe. This may be improved in the next version.</li>
+  <li> A seperate business entity is needed when initializing information of different periods, "report_type='annual'" and "report_type='quarter'". One business entity may be condsidered by moving the "report_type" parameter to the execution stpe.</li>
+  
+ </ul>
 
 ## Why this scraper? <a name = "differences"></a>
 keyword is centralize
@@ -247,9 +247,16 @@ keyword is centralize
 
 
 
-
-
 ## Acknowledgments <a name = "acknowledge"></a>
+
+
+
+
+
+
+
+
+
 
 
   
