@@ -140,7 +140,7 @@ Here's an excerpt of the dataframe:
 Here's an excerpt of the dataframe:
 
   </li>
-  <img src="images/amzn_annual_cashflow.png" alt='AMZN AnnualCashflow Statement' width='750' height='350' >
+  <img src="images/amzn_annual_cashflow.png" alt='AMZN Annual Cashflow Statement' width='750' height='350' >
   
 </ul>
 
@@ -218,12 +218,17 @@ lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_typ
 ## requesting the program to gather balance sheets and combine them into one dataframe
 lmt_quarter_balance=lmt_quarter.ghost_balance()
 ```
-Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter.
-Takeaway: 
+<img src="images/quarter_short_time.png" alt='Time Range Too Short' width='750' height='350' >
 
-#### McDonald's Corporation (ticker symbol: MCD)
+This message is shown because there is no quarter filings contained within this time range. Trying expanding the time range.
 
+```
+lmt_quarter=sec_business_scraper.Business(foreign=True, symbol='LMT', report_type='quarter', start_period=20190901, end_period=20191231)
+```
+The time range is now expanded from 10/01/2019~12/01/2019 to 09/01/2019~12/31/2019. This should now work. If it doesn't, keep eapanding the time range.
+Eyeball the first columns for the Total Current Assets and Total Current Liabilities for the most recent quarter, then apply calculations.
 
+Takeaway: Whenever the program complains about not being able to find filings in a too-narrowed time frame, try expanding the time range. 
 
 ## Limitations <a name = "limitations"></a>
 
