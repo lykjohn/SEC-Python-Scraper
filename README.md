@@ -1,9 +1,3 @@
-
-<p align="center">
-  <a href="" rel="noopener"></a>
-  <img src="images/banner.png" alt='Book Value' width='750' height='350' >
-</p>
-  
 <h3  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper</h3>
 
 
