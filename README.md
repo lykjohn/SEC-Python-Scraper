@@ -2,7 +2,7 @@
   <a href="" rel="noopener"></a>
   <img src="images/banner1.png" alt='home' width='1000' height='350' >
 </p>
-<h3  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper</h3>
+<h3  align='center' > U.S. Securities and Exchange Commission (SEC) Python Scraper</h3>
 
 
 [![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
