@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener"></a>
-  <img src="images/banner1.png" alt='home' width='750' height='350' >
+  <img src="images/banner1.png" alt='home' width='1000' height='350' >
 </p>
 <h3  align='center' > U.S. Securities and Exchange Commission (SEC) Business Scraper</h3>
 
