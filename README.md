@@ -4,13 +4,7 @@
 </p>
 <h3  align='center' > U.S. Securities and Exchange Commission (SEC) Python Scraper</h3>
 
-
-[![Build Status](https://img.shields.io/badge/build-passing-black.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
-[![Documentation Status](https://img.shields.io/badge/documentation-passing-green.svg)](https://github.com/lykjohn/SEC-Business-Scraper.git)
-[![GitHub commits](https://img.shields.io/badge/last%20commit-today-yellow.svg)](https://github.com/lykjohn/SEC-Business-Scraper/commit/master)
 [![Setup Automated](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lykjohn)
-[![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/lykjohn/SEC-Business-Scraper/blob/master/LICENSE)
-
 
 [What is This About?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How It Works](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Limitations](#limitations)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why This Program?](#differences)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledge)&nbsp;&nbsp;&nbsp;
 
