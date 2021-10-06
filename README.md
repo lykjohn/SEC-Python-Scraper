@@ -5,8 +5,8 @@
 <h3  align='center' > U.S. Securities and Exchange Commission (SEC) Python Scraper</h3>
 
 
-[![Setup Automated](/images/Python.svg)](https://www.python.org/)
-[![Setup Automated](/images/ShellScript.svg)](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
+[![Setup Automated](/images/python.svg)](https://www.python.org/)
+[![Setup Automated](/images/shellscript.svg)](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
 <br/>
 [![Setup Automated](/images/github.svg)](https://github.com/lykjohn)
 [![Setup Automated](/images/linkedin.svg)](https://www.linkedin.com/in/lykjohn)
