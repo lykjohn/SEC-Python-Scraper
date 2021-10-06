@@ -8,8 +8,9 @@
 [![Setup Automated](https://camo.githubusercontent.com/66827c53581cfee18c55618697d74a3c6167932d3c1980fba2019ef7a3e553b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d507974686f6e2d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d507974686f6e)](https://www.python.org/)
 [![Setup Automated](https://camo.githubusercontent.com/34369e49e1485afd145712267a618ed6037a1617b29b58122fcc83396696ad78/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d7368656c6c2d3533393146453f7374796c653d666c61742d737175617265266c6f676f3d506f7765725368656c6c266c6f676f436f6c6f723d7768697465)](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)
 <br/>
-[![Setup Automated](https://camo.githubusercontent.com/cc2d480a09fda498792f0f3e66e29432172a1e1669af9309d47db1daadaaef7f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d2d3030303030303f7374796c653d666c61742d737175617265266c6f676f3d525353266c6f676f436f6c6f723d7768697465)](https://github.com/lykjohn)
-[![Setup Automated](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lykjohn)
+[![Setup Automated](/images/linkedin.svg)](https://github.com/lykjohn)
+[![Setup Automated](/images/cv.svg)](https://github.com/lykjohn)
+
 
 [What is This About?](#about)&nbsp;|&nbsp;[How It Works](#how_it_works)&nbsp;|&nbsp;[Quick Start](#quick_start)&nbsp;|&nbsp; [Examples](#examples)&nbsp;|&nbsp;[Limitations](#limitations)&nbsp;|&nbsp;[Why This Program?](#differences)&nbsp;|&nbsp;[Acknowledgments](#acknowledge)&nbsp;|&nbsp;[Other Projects](#projects)&nbsp;
 
