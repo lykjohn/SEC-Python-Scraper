@@ -4,7 +4,10 @@
 </p>
 <h3  align='center' > U.S. Securities and Exchange Commission (SEC) Python Scraper</h3>
 
+[![Setup Automated](https://camo.githubusercontent.com/66827c53581cfee18c55618697d74a3c6167932d3c1980fba2019ef7a3e553b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d507974686f6e2d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d507974686f6e)](https://www.python.org/)
 [![Setup Automated](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lykjohn)
+
+
 
 [What is This About?](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How It Works](#how_it_works)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Quick Start](#quick_start)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Examples](#examples)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Limitations](#limitations)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why This Program?](#differences)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Acknowledgments](#acknowledge)&nbsp;&nbsp;&nbsp;
 
