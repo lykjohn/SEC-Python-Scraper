@@ -246,17 +246,15 @@ Rather than parsing through each report and extracting the financial statements 
 
 ## Acknowledgments <a name = "acknowledge"></a>
 <ul>
-  <li> https://airccj.org/CSCP/vol7/csit76615.pdf</li>
-  <li> https://github.com/sewardlee337/finreportr.git </li>
+  <li> <a href="https://airccj.org/CSCP/vol7/csit76615.pdf"> THE ANNUAL REPORT ALGORITHM: RETRIEVAL OF FINANCIAL STATEMENTS AND EXTRACTION OF TEXTUAL INFORMATION </a> </li>
+  <li> <a href="https://github.com/sewardlee337/finreportr.git"> finreportr </a> </li>
 </ul>
 
 
-
-
-
-
-
-
-
-
-  
+## Other Projects <a name = "projects"></a>
+<ul>
+  <li> <a href="https://github.com/lykjohn/Quantitative-Risk-Dashboard"> Quantitative Risk Dashboard</a> </li>
+  <li> <a href="https://github.com/lykjohn/Viable-Long-Term-Investment/blob/main/final_report.pdf"> Large-Scale Computation to Identify Viable Long-Term Investment Opportunities</a> </li>
+  <li> <a href="https://github.com/lykjohn/Bayesian-Recession-Forecast/blob/master/bayesian_recession_report.pdf"> Economic Recession Forecast Under the Bayesian Hierarchical Framework</a> </li>
+  <li> <a href="https://github.com/lykjohn/Time-Series-Insurace-Premium/blob/master/premium_modeling_report.pdf"> Evaluating Time Series Models for Predicting Smokers and Non-Smoker Premiums</a> </li>
+</ul>
